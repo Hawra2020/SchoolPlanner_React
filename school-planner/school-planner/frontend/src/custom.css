@@ -1,0 +1,138 @@
+.menu .btn:active,
+.menu .btn:focus,
+.menu input:active,
+.menu input:focus,
+.menu .btn,
+.menu input {
+	outline: none;
+	border: none;
+	box-shadow: none;
+}
+
+* {
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.drop-down {
+	z-index: 2000;
+}
+
+.drop-down ul {
+	min-width: 100px;
+}
+
+.drop-down ul button.btn,
+.drop-down ul div.file {
+	display: block;
+	width: 100%;
+	text-align: left;
+	border-radius: 0;
+	cursor: pointer;
+}
+
+.drop-down ul button.btn:hover,
+.drop-down ul div.file:hover {
+	background-color: var(--light) !important;
+	color: var(--gray-dark) !important;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.layout-container {
+	min-height: 100vh !important;
+	position: relative;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.row {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+table {
+	z-index: 1999 !important;
+	table-layout: fixed;
+}
+
+table td {
+	overflow: hidden;
+	vertical-align: middle !important;
+}
+
+table th {
+	overflow:hidden;
+}
+
+
+table th:hover {
+	background-color: var(--gray) !important;
+	color: var(--light) !important;
+}
+
+/* table#planner-table td{
+	vertical-align: middle;
+} */
+
+table td a {
+	display: inline-block;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+div.file,
+td.group-selector {
+	position: relative;
+	overflow: hidden;
+}
+
+div.file input,
+td.group-selector select {
+	position: absolute;
+	opacity: 0;
+	right: 0;
+	top: 0;
+}
+
+div.file input {
+	font-size: 50px;
+}
+
+.btn.btn-info a,
+.btn.btn-info:hover a,
+.btn.btn-info:hover a:hover {
+	color: var(--light) !important;
+	text-decoration: none;
+}
+
+td.group-selector select {
+	bottom: 0;
+}
+
+.form-control:focus {
+	border-color: var(--gray-dark) !important;
+	box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.25) !important;
+}
+
+td:hover {
+	background-color: var(--light) !important;
+	color: var(--black) !important;
+	font-weight: bolder;
+}
+
+td:hover a,
+td:hover a:hover {
+	color: var(--black) !important;
+}
+
+button:hover a,
+button:hover a:hover {
+	color: var(--gray-dark) !important;
+}
